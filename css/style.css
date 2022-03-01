@@ -12,10 +12,15 @@
 }
 
 .my-padding-carousel{
-    padding: 5px;
+    padding: 3px;
 }
-.col-12{
+
+.my-brightness{
+    filter: brightness(.4);
+}
+.my-img-list{
     height: calc(100% / 5);
+    
 }
 .carousel-element{
     height: 100%;
@@ -47,6 +52,7 @@ img{
     width: 40px;
     border-radius: 50%;
     opacity: .9;
+    z-index: 9;
 }
 
 .my-top-btn{
