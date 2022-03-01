@@ -1,0 +1,58 @@
+.my-container{
+    height: 100vh;
+}
+
+.my-first-row{
+    height: 55vh; 
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.my-padding-carousel{
+    padding: 5px;
+}
+.col-12{
+    height: calc(100% / 5);
+}
+.carousel-element{
+    height: 100%;
+    display: none;
+}
+
+.active{
+    display: block;
+}
+img{
+    height: 100%; 
+    width: 100%;
+    object-fit: cover;
+}
+
+.col-2{
+    height: 100%;
+    background-color: white
+}
+
+.my-second-row{
+    height: 100%;
+}
+
+.my-btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    border-radius: 50%;
+    opacity: .9;
+}
+
+.my-top-btn{
+    top: .25rem;
+}
+
+.my-bottom-btn{
+    bottom: .25rem;
+}
